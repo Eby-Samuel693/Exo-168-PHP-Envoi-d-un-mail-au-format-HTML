@@ -7,10 +7,7 @@
  *    ex: ['j.conan@fondationface.org' => true, 'toto@fondationface.org' => false] => à vous de trouver la suite !
  */
 
-$to = [
-    'j.conan@fondationface.org',
-    ...
-];
+$to = 'j.conan@fondationface.org';
 
 $html = '
     <html lang="fr">
@@ -20,6 +17,9 @@ $html = '
         <body>
             <div>
                 <!-- Vos actualités ici -->
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum tempus tellus sed risus<br> 
+                scelerisque, ultrices maximus lorem interdum. Ut sit amet congue mi. Ut mollis efficitur <br>
+                orci sed volutpat.</p>
             </div>
         </body>
     </html>
